@@ -1,0 +1,16 @@
+.card{
+    background-color: rgb(240, 216, 185);
+  }
+.shop-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 50px;
+    background-color: rgb(240, 216, 185);
+
+
+  }
+  .products-container {
+    display: grid;
+    gap: 10px;
+    background-color: rgb(240, 216, 185);
+  }

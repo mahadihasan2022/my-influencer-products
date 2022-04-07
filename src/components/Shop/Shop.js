@@ -16,11 +16,10 @@ const Shop = () => {
     // console.log(selectedProduct);
     const newCart = [...carts, product];
 
-    if(newCart.length === 5){
-        alert('you are selected 4 items')
-    }
-    else{
-        setCarts(newCart);
+    if (newCart.length === 5) {
+      alert("you are selected 4 items");
+    } else {
+      setCarts(newCart);
     }
   };
   const choseHandle = () => {
@@ -34,11 +33,10 @@ const Shop = () => {
     setCarts([]);
   };
   return (
-    <div>
-     {/* <div className="search-container">
-     <input className="search-box" type="text" placeholder="Search Sour Phone" />
-      <button className="btn">Search</button>
-     </div> */}
+    <div className=" card p-16">
+      <h1 className="text-4xl font-bold text-center pb-12">
+        My Influencer Products
+      </h1>
       <div className="shop-container">
         <div className="products-container">
           {products.map((product) => (
@@ -55,13 +53,16 @@ const Shop = () => {
             <Cart cart={cart} key={cart.id}></Cart>
           ))}
 
-          <button onClick={choseHandle} className="shop-btn-cart">
-            Chosse One
-          </button>
-          <br />
-          <button onClick={handleRestart} className="shop-btn-cart">
-            Restart
-          </button>
+          <div className="p-4 btn-color">
+            <button onClick={choseHandle} className="shop-btn-cart">
+              Chosse One
+            </button>
+          </div>
+          <div>
+            <button onClick={handleRestart} className="shop-btn-cart">
+              Restart
+            </button>
+          </div>
         </div>
       </div>
     </div>

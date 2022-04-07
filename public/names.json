@@ -1,93 +1,122 @@
 [
-    {
-      "id": "1a2b4",
-      "category": "Smart-Phone",
-      "name": "Samsung Galaxy Note 8",
-      "brand": "Sumsung",
-      "price": 45000,
-      "stock": 52,
-      "img": "https://www.gizmochina.com/wp-content/uploads/2018/02/Galaxy-Note-8-render-leak-11-600x558.jpg",
-      "quantity": 0
-    },
-    {
-      "id": "1a3b4",
-      "category": "Smart-Phone",
-      "name": "Samsung Galaxy Note 10",
-      "brand": "Sumsung",
-      "price": 85000,
-      "stock": 20,
-      "img": "https://www.xda-developers.com/files/2019/06/smsung-galaxy-note-10-pro-render-featured_.jpg",
-      "quantity": 0
-    },
-    {
-      "id": "1a9b6",
-      "category": "Smart-Phone",
-      "name": "Samsung Galaxy Note 9",
-      "brand": "Sumsung",
-      "price": 55000,
-      "stock": 32,
-      "img": "https://www.samsung.com/global/galaxy/galaxy-note9/images/galaxy-note9-share-image.jpg",
-      "quantity": 0
-    },
-    {
-      "id": "1a4b6",
-      "category": "Smart-Phone",
-      "name": "Samsung Galaxy M20",
-      "brand": "Sumsung",
-      "price": 15000,
-      "stock": 25,
-      "img": "https://www.mobiledokan.co/wp-content/uploads/2019/01/Samsung-Galaxy-M20.jpg",
-      "quantity": 0
-    },
-    {
-      "id": "1abc4",
-      "category": "Smart-Phone",
-      "name": "Samsung Galaxy S20 ultra",
-      "brand": "Sumsung",
-      "price": 65000,
-      "stock": 20,
-      "img": "https://www.gizmochina.com/wp-content/uploads/2020/02/Samsung-Galaxy-S20-Ultra.jpg",
-      "quantity": 0
-    },
-    {
-      "id": "1a12b4",
-      "category": "Smart-Phone",
-      "name": "Vivo 91C",
-      "brand": "Vivo",
-      "price": 45000,
-      "stock": 22,
-      "img": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1550644110487/eab6c7c10d0e39d443f7fa879acedd7f.png",
-      "quantity": 0
-    },
-    {
-      "id": "1a8b4",
-      "category": "Smart-Phone",
-      "name": "Samsung Galaxy Zero",
-      "brand": "Sumsung",
-      "price": 25000,
-      "stock": 26,
-      "img": "https://mobilekoto.com/wp-content/uploads/2021/06/Samsung-Galaxy-Zero-Max.jpg",
-      "quantity": 0
-    },
-    {
-      "id": "1a9b4",
-      "category": "Smart-Phone",
-      "name": "Samsung Galaxy J7pro",
-      "brand": "Sumsung",
-      "price": 15000,
-      "stock": 20,
-      "img": "https://www.gizmochina.com/wp-content/uploads/2017/06/Samsung-Galaxy-J7-Pro.jpg",
-      "quantity": 0
-    },
-    {
-      "id": "1a0b4",
-      "category": "Smart-Phone",
-      "name": "Samsung Galaxy A3",
-      "brand": "Sumsung",
-      "price": 22000,
-      "stock": 32,
-      "img": "https://drop.ndtv.com/TECH/product_database/images/10312014102248AM_635_samsung_galaxy_a3.jpeg",
-      "quantity": 0
-    }
- ]
-    
+  {
+    "id": " 1a2b4",
+    "category": " Smart-Phone",
+    "name": " Samsung Galaxy Note 8",
+    "brand": " Sumsung",
+    "price": 45000,
+    "stock": 52,
+    "img": "https://www.gizmochina.com/wp-content/uploads/2018/02/Galaxy-Note-8-render-leak-11-600x558.jpg",
+    "quantity": 0
+  },
+  {
+    "id": " 1a3b4",
+    "category": " Smart-Phone",
+    "name": " Samsung Galaxy Note 10",
+    "brand": " Sumsung",
+    "price": 85000,
+    "stock": 20,
+    "img": "https://www.xda-developers.com/files/2019/06/smsung-galaxy-note-10-pro-render-featured_.jpg",
+    "quantity": 0
+  },
+  {
+    "id": " 1a9b6",
+    "category": " Smart-Phone",
+    "name": " Samsung Galaxy Note 9",
+    "brand": " Sumsung",
+    "price": 55000,
+    "stock": 32,
+    "img": "https://www.samsung.com/global/galaxy/galaxy-note9/images/galaxy-note9-share-image.jpg",
+    "quantity": 0
+  },
+  {
+    "id": " 1a4b6",
+    "category": " Smart-Phone",
+    "name": " iPhone 12",
+    "brand": " Apple",
+    "price": 69000,
+    "stock": 25,
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=90&.v=1617135051000",
+    "quantity": 0
+  },
+  {
+    "id": " 1abc4",
+    "category": " Smart-Phone",
+    "name": " Samsung Galaxy S20 ultra",
+    "brand": " Sumsung",
+    "price": 65000,
+    "stock": 20,
+    "img": "https://www.gizmochina.com/wp-content/uploads/2020/02/Samsung-Galaxy-S20-Ultra.jpg",
+    "quantity": 0
+  },
+  {
+    "id": " 1a12b4",
+    "category": " Smart-Phone",
+    "name": " Vivo 91C",
+    "brand": " Vivo",
+    "price": 45000,
+    "stock": 22,
+    "img": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1550644110487/eab6c7c10d0e39d443f7fa879acedd7f.png",
+    "quantity": 0
+  },
+  {
+    "id": " 1a8b4",
+    "category": " Smart-Phone",
+    "name": " iPhone 14pro",
+    "brand": " Apple",
+    "price": 125000,
+    "stock": 26,
+    "img": "https://cdn.vox-cdn.com/thumbor/OCYUEEc5odYKWErorN0WNvLa9po=/0x0:2032x1355/1200x800/filters:focal(854x516:1178x840)/cdn.vox-cdn.com/uploads/chorus_image/image/70617253/akrales_210917_4760_0175.0.jpg",
+    "quantity": 0
+  },
+  {
+    "id": " 1a9b4",
+    "category": " Digital Watch",
+    "name": " Watch Series 5 Aluminum",
+    "brand": " Rosra",
+    "price": 1500,
+    "stock": 20,
+    "img": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGlnaXRhbCUyMHdhdGNofGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+    "quantity": 0
+  },
+  {
+    "id": " 1a0b4",
+    "category": " Smart-Phone",
+    "name": " Samsung Galaxy A3",
+    "brand": " Sumsung",
+    "price": 22000,
+    "stock": 32,
+    "img": "https://drop.ndtv.com/TECH/product_database/images/10312014102248AM_635_samsung_galaxy_a3.jpeg",
+    "quantity": 0
+  },
+  {
+    "id": " 2a0b4",
+    "category": " Digital Watch",
+    "name": " Watch Series 4",
+    "brand": " Rosra",
+    "price": 2000,
+    "stock": 12,
+    "img": "https://rukminim2.flixcart.com/image/714/857/kcjexe80/watch/3/0/9/new-generation-digital-new-military-digital-led-sports-watch-for-original-imaftnbxwuz3jhqa.jpeg?q=50",
+    "quantity": 0
+  },
+  {
+    "id": "1a0m4",
+    "category": "Smart-Phone",
+    "name": " iPhone 13",
+    "brand": " Apple",
+    "price": 82000,
+    "stock": 22,
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pink-select-2021?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1645572315935",
+    "quantity": 0
+  },
+  {
+    "id": "1a0n4",
+    "category": "Smart-Phone",
+    "name": " iPhone 13pro",
+    "brand": " Apple",
+    "price": 89000,
+    "stock": 20,
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-family-hero?wid=940&hei=1112&fmt=png-alpha&.v=1644969385433",
+    "quantity": 0
+  }
+]
