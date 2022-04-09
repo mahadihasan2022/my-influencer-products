@@ -1,0 +1,19 @@
+.login-email{
+    border: 1px solid black;
+}
+.login-section{
+    background-color: rgb(240, 216, 185);
+}
+.password{
+    border: 1px solid black;
+}
+.submit{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+.f-pass{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: burlywood;
+}

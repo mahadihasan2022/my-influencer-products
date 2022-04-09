@@ -6,6 +6,9 @@ import Home from './components/Home/Home';
 import Review from './components/Review/Review'
 import Search from './components/Search/Search';
 import DashBoard from './components/DashBoard/DashBoard';
+import Login from './components/Login/Login';
+import Footer from './components/Footer/Footer';
+import NotFound from './components/CustomHooks/NotFound/NotFound';
 
 
 function App() {
@@ -18,8 +21,11 @@ function App() {
       <Route path='/Products' element={<Shop></Shop>}></Route>
       <Route path='/Review' element={<Review></Review>}></Route>
       <Route path='/DashBoard' element={<DashBoard></DashBoard>}></Route>
+      <Route path='/Login' element={<Login></Login>}></Route>
       <Route path='/Search' element={<Search></Search>}></Route>
+      <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

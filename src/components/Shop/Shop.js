@@ -33,12 +33,12 @@ const Shop = () => {
     setCarts([]);
   };
   return (
-    <div className=" card p-16">
+    <div className=" card md:p-16">
       <h1 className="text-4xl font-bold text-center pb-12">
         My Influencer Products
       </h1>
-      <div className="shop-container">
-        <div className="products-container">
+      <div className="shop-card">
+        <div className="products-card">
           {products.map((product) => (
             <Product
               key={product.id}
@@ -47,7 +47,7 @@ const Shop = () => {
             ></Product>
           ))}
         </div>
-        <div className="cart-container">
+        <div className="cart-cont">
           <h1>Selected Phone</h1>
           {carts.map((cart) => (
             <Cart cart={cart} key={cart.id}></Cart>

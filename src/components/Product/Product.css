@@ -43,3 +43,28 @@
 .btn-cart:hover {
   background-color: pink;
 }
+
+@media only screen and (max-width: 580px) {
+  .product img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 7px;
+  }
+  .product {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    background-color: rgb(224, 224, 200);
+  }
+  .product-name {
+    font-size: 10px;
+    line-height: 25px;
+  }
+  .details{
+    font-size: 10px;
+  }
+}

@@ -9,13 +9,13 @@ const Product = (props) => {
   const { name, img, price, id, brand } = product;
   // console.log(props);
   return (
-    <div className="product">
+    <div className="product sm:w-64 sm:h-64">
       <img src={img} alt=""></img>
       <div className="product-details">
-        <p className="product-name">Model:{name}</p>
-        <p>Brand:{brand}</p>
-        <p>price:{price}</p>
-        <p>Product Key:{id}</p>
+        <p className="details">Model:{name}</p>
+        <p className="details">Brand:{brand}</p>
+        <p className="details">price:{price}</p>
+        <p className="details">Product Key:{id}</p>
       </div>
       <button onClick={() => handleAddToCart(product)} className="btn-cart">
         <p className="btn-text"> Add to Cart</p>

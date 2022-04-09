@@ -1,16 +1,24 @@
-.card{
+.card-contain{
     background-color: rgb(240, 216, 185);
   }
-.shop-container {
+.shop-contain {
+    background-color: rgb(240, 216, 185);
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .products-contain {
+    background-color: rgb(240, 216, 185);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 50px;
-    background-color: rgb(240, 216, 185);
-
-
-  }
-  .products-container {
-    display: grid;
     gap: 10px;
-    background-color: rgb(240, 216, 185);
   }
+  
+@media only screen and (max-width: 580px) {
+  .products-contain {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-contain{
+    padding-left: 40px;
+  }
+}

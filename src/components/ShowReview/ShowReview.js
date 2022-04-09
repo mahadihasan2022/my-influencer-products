@@ -8,7 +8,7 @@ const ShowReview = (props) => {
   const { name, img, comment, ratting } = product;
   // console.log(props);
   return (
-    <div className="flex p-6 rounded-lg w-96 review-items">
+    <div className="flex md:p-6 rounded-lg md:w-96 sm:w-auto review-items">
       <div className="flex w-24 h-24 items-center">
         <img src={img} alt=""></img>
       </div>

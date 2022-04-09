@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Results from "../Result/Results";
 import "./Search.css";
 
 const Search = () => {
@@ -15,19 +16,22 @@ const Search = () => {
   const searchProduct = (e) => {
     setSearchText(e.target.value);
     console.log(loadData);
+    console.log(searchText);
   };
 
   return (
     <div className="search-bar text-center p-16">
       <h1 className="text-4xl text-center font-bold p-16">Buy Your Phone</h1>
       <input
-        onChange={searchProduct}
+        onBlur={searchProduct}
         className="search-box"
         type="text"
         placeholder="Sreach..."
       />
-      <div className="search p-20 font-medium">
-        <h3>result found:{loadData.length}</h3>
+      <div className="search p-20 font-medium grid grid-cols-3 gap-4">
+        {
+          loadData.map((data) => <Results data={data}></Results>)
+        }
       </div>
     </div>
   );

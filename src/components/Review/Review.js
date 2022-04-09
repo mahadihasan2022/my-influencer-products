@@ -15,7 +15,7 @@ const Shop = () => {
       <h1 className="text-center font-bold text-4xl pb-20">
         Customers Reviews
       </h1>
-      <div className="grid grid-cols-2 gap-4 pl-14 product-container">
+      <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-4 md:pl-14 product-container">
         {products.map((product) => (
           <ShowReview
             key={product.id}

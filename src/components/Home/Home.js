@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Product from "../Product/Product";
-import Search from "../Search/Search";
+import HomeResult from "../HomeResult/HomeResult";
 import "./Home.css";
 
 const Home = () => {
@@ -18,18 +17,18 @@ const Home = () => {
   };
 
   return (
-    <div className="p-16 card">
+    <div className="md:p-16 card-contain">
       <h1 className="text-center text-4xl font-bold pb-12">
         My Influencer Products
       </h1>
-      <div className="shop-container">
-        <div className="products-container">
+      <div className="shop-contain">
+        <div className="products-contain">
           {products.map((product) => (
-            <Product
+            <HomeResult
               key={product.id}
               product={product}
               handleAddToCart={handleAddToCart}
-            ></Product>
+            ></HomeResult>
           ))}
         </div>
       </div>

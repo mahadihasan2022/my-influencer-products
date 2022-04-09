@@ -14,6 +14,8 @@ import {
   YAxis,
 } from "recharts";
 import "./DashBoard.css";
+
+
 const DashBoard = () => {
   const data = [
     {
@@ -64,12 +66,12 @@ const DashBoard = () => {
       <h2 className="text-2xl font-bold text-center p-8">
         Its Our Website DeshBord.
       </h2>
-      <div className="grid grid-cols-2">
+      <div className="grid md:grid-cols-2 sm:grid-cols-1">
         <div>
-          <h3 className="text-xl font-bold text-center p-8">
+          <h3 className="text-xl font-bold md:text-center p-8 text-info">
             Investment Vs Revenue
           </h3>
-          <LineChart width={500} height={350} data={data}>
+          <LineChart width={350} height={300} data={data}>
             <Line dataKey={"investment"}></Line>
             <XAxis dataKey={"month"}></XAxis>
             <YAxis dataKey={"sell"}></YAxis>
@@ -77,10 +79,10 @@ const DashBoard = () => {
           </LineChart>
         </div>
         <div>
-          <h3 className="text-xl font-bold text-center p-8">
+          <h3 className="text-xl font-bold md:text-center p-8">
             Sell Vs Investment
           </h3>
-          <BarChart width={500} height={400} data={data}>
+          <BarChart width={350} height={300} data={data}>
             <XAxis dataKey={"month"}></XAxis>
             <YAxis dataKey={"revenue"}></YAxis>
             <Bar dataKey={"investment"} barSize={30} fill="#8884d8"></Bar>
@@ -88,10 +90,10 @@ const DashBoard = () => {
           </BarChart>
         </div>
         <div>
-          <h3 className="text-xl font-bold text-center p-8">
+          <h3 className="text-xl font-bold md:text-center p-8">
             Month Vs Sell Vs Investment
           </h3>
-          <AreaChart width={600} height={400} data={data}>
+          <AreaChart width={350} height={300} data={data}>
             <XAxis dataKey={"year"}></XAxis>
             <YAxis dataKey={"revenue"}></YAxis>
             <Area dataKey={"month"}></Area>
@@ -100,7 +102,7 @@ const DashBoard = () => {
           </AreaChart>
         </div>
         <div>
-          <h3 className="text-xl font-bold text-center p-8">
+          <h3 className="text-xl font-bold md:text-center p-8">
             Investment Vs Sell
           </h3>
           <RadarChart outerRadius={90} width={500} height={400} data={data}>
