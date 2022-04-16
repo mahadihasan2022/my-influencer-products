@@ -47,7 +47,7 @@ const Shop = () => {
             ></Product>
           ))}
         </div>
-        <div className="cart-cont">
+        {/* <div className="cart-cont">
           <h1>Selected Phone</h1>
           {carts.map((cart) => (
             <Cart cart={cart} key={cart.id}></Cart>
@@ -63,7 +63,7 @@ const Shop = () => {
               Restart
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

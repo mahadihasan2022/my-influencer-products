@@ -8,7 +8,7 @@ import Search from './components/Search/Search';
 import DashBoard from './components/DashBoard/DashBoard';
 import Login from './components/Login/Login';
 import Footer from './components/Footer/Footer';
-import NotFound from './components/CustomHooks/NotFound/NotFound';
+import NotFound from './components/NotFound/NotFound';
 
 
 function App() {
